@@ -1,8 +1,6 @@
 import numpy as np
-import keras
 from keras.models import Sequential
 from keras.layers import Activation, Dense
-from keras.utils import np_utils
 from keras.utils import to_categorical
 import pandas as pd
 import pymysql
