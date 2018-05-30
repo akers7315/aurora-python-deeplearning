@@ -7,10 +7,10 @@ from keras.utils import to_categorical
 import pandas as pd
 import pymysql
 
-mysql_connection = pymysql.connect(host='sterling.czsuz7w8l6hj.us-east-1.rds.amazonaws.com',
-                    user='sterling',
-                    password='\gNrVd}{W-tv#7M8q%D7}UR_23g#,t{?;DQ8kvt}*',
-                    db='sterling',
+mysql_connection = pymysql.connect(host='your-database-hostname',
+                    user='your-database-username',
+                    password='your-database-pass',
+                    db='your-database-name',
                     charset='utf8',
                     cursorclass=pymysql.cursors.DictCursor)
                     
