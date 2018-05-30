@@ -28,7 +28,7 @@ model.add(Activation('relu'))
 model.add(Dense(64, input_shape=(3,)))
 model.add(Activation('relu'))
 model.add(Dense(128, input_shape=(3,)))
-model.add(Activation('softmax'))
+model.add(Activation('relu'))
 model.add(Dense(2))
 model.add(Activation('sigmoid'))
 model.compile(loss='categorical_crossentropy',
